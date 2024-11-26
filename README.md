@@ -1,4 +1,5 @@
-# Heavy Resources
+# 구글 드라이브에서 다운받아야 할 목록
+---
 Content/EuropeanHornbeam/*
 Content/ForestAnimalsPack/*
 Content/MSPresets/*
