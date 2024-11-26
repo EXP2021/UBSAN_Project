@@ -1,6 +1,4 @@
-# 구글 드라이브에서 다운받아야 할 목록
-
-링크: https://drive.google.com/drive/folders/1rJnNXkQSz8dvMSeWuR1ohEwxmOTs0hI9
+# 아래 리소스들을 구글 드라이브에서 다운받아 CONTENT 폴더 하위에 압축 해제
 
 Content/EuropeanHornbeam/*
 
@@ -21,3 +19,6 @@ Content/StarterContent/*
 Content/Vefects/*
 
 Content/Megascans/*
+
+---
+링크: https://drive.google.com/drive/folders/1rJnNXkQSz8dvMSeWuR1ohEwxmOTs0hI9
