@@ -1,7 +1,6 @@
 # 구글 드라이브에서 다운받아야 할 목록
 
 링크: https://drive.google.com/drive/folders/1rJnNXkQSz8dvMSeWuR1ohEwxmOTs0hI9
----
 
 Content/EuropeanHornbeam/*
 
