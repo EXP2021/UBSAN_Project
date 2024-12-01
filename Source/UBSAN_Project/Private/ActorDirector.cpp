@@ -83,22 +83,22 @@ void AActorDirector::OpenScriptableWidget()
 		ScriptableWidget = CreateWidget<UScriptableWidget>(GetWorld(), ScriptableWidgetClass);
 		if (ScriptableWidget)
 		{
-			ScriptableWidget->AddToViewport();
+			ScriptableWidget->AddToViewport(1);
 		}
 	}
 }
 
 void AActorDirector::CloseScriptableWidget()
 {
-	if (ScriptableWidgetClass != nullptr)
+	if (ScriptableWidget != nullptr)
 	{
 		ScriptableWidget->RemoveFromParent();
 	}
 }
 
-void AActorDirector::SetScriptContext(FString text)
+void AActorDirector::SetScriptContext(const FString& text)
 {
-	if (ScriptableWidgetClass != nullptr)
+	if (ScriptableWidget != nullptr)
 	{
 		ScriptableWidget->SetText(text);
 	}
@@ -111,7 +111,7 @@ void AActorDirector::OpenCrossArmWidget()
 		auto CrossHairWidget = CreateWidget<UUserWidget>(GetWorld(), CrossHairWidgetClass);
 		if (CrossHairWidget)
 		{
-			CrossHairWidget->AddToViewport();
+			CrossHairWidget->AddToViewport(0);
 		}
 	}
 }

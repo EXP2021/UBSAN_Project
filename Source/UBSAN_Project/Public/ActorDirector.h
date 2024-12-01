@@ -60,7 +60,7 @@ public:
 	void CloseScriptableWidget();
 
 	UFUNCTION(BlueprintCallable, Category = "ActorDirector")
-	void SetScriptContext(FString text);
+	void SetScriptContext(const FString& text);
 
 	void OpenCrossArmWidget();
 };
