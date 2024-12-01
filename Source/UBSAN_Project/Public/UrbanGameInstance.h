@@ -7,7 +7,7 @@
 #include "UrbanGameInstance.generated.h"
 
 /// <summary>
-/// 게임 중 갱신되는 잡다한 정보들을 떄려넣고 사용한다.
+/// 혹시 몰라 싱글톤 하나 제작
 /// </summary>
 UCLASS()
 class UBSAN_PROJECT_API UUrbanGameInstance : public UGameInstance
